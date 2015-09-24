@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Knot in Love</title>
+	
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="css/linkstyles.css">
+	<link rel="stylesheet" href="css/animations.css">
+	<link rel="icon" href="images/favicon.png" type="image/png">
+	
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+	
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript">
+		$(window).load(function() {
+			$(".loader").fadeOut("slow");
+		});
+	</script>
+</head>
+<body>
+	
+	<!-- Header About Us Popup -->
+	<div id="dialog-box" class="dialog-box">
+		<img src="images/sidelogo.png" class="about-popup-img">
+		<a href="javascript:void(0);" id="close" class="close">
+			<i class="fa fa-times-circle-o"></i>
+		</a>
+		<p class="popup-text">How comfortable is it to let people know that you are on a matrimonial website looking for a partner? <br><br>Not very, right? <br><br>Something is wrong with the way Indian matrimonial websites function. And that's why we're here to rehaul the approach to matchmaking in India. <br><br>Knot in Love are India's new age matchmakers that lets you find people who're interested in the shape and size of your personality and not your body. <br><br>So press the reset button and meet some happy hearts and crazy souls. <br><span style="color:#ff9494;text-shadow: 1px 1px 1px #000;">Knot in love.</span></p>
+    </div>
+	
+	<!-- Footer About Us Popup -->
+	<div id="dialog-about2" class="dialog-box">
+		<img src="images/sidelogo.png" class="about-popup-img">
+		<a href="javascript:void(0);" id="close-about2" class="close">
+			<i class="fa fa-times-circle-o"></i>
+		</a>
+		<p class="popup-text">How comfortable is it to let people know that you are on a matrimonial website looking for a partner? <br><br>Not very, right? <br><br>Something is wrong with the way Indian matrimonial websites function. And that's why we're here to rehaul the approach to matchmaking in India. <br><br>Knot in Love are India's new age matchmakers that lets you find people who're interested in the shape and size of your personality and not your body. <br><br>So press the reset button and meet some happy hearts and crazy souls. <br><span style="color:#ff9494;text-shadow: 1px 1px 1px #000;">Knot in love.</span></p>
+    </div>
+	
+	<!-- Work With Us Popup-->
+	<div id="dialog-work" class="dialog-box">
+		<div style="width: 100%;height: 100%;display: table;">
+			<div style="display: table-cell;vertical-align: middle;">
+				<center><img src="images/sidelogo.png" class="about-popup-img"></center>
+				<a href="javascript:void(0);" id="close-work">
+					<i class="fa fa-times-circle-o"></i>
+				</a>
+				<center>
+				<p class="pop-text2">
+					Like what we're doing? Send us an email at <span style="color:#ff9494;text-shadow: 1px 1px 1px #000;">hello@knotinlove.com</span>
+				</p>
+				</center>
+  			</div>
+  		</div>
+	</div>
+	
+	<!-- Contact Us Popup-->
+	<div id="dialog-contact" class="dialog-box">
+		<div style="width: 100%;height: 100%;display: table;">
+			<div style="display: table-cell;vertical-align: middle;">
+				<center><img src="images/sidelogo.png" class="about-popup-img"></center>
+				<a href="javascript:void(0);" id="close-contact">
+					<i class="fa fa-times-circle-o"></i>
+				</a>
+				<center>
+				<p class="pop-text2">
+					Got anything to tell us? Email at <span style="color:#ff9494;text-shadow: 1px 1px 1px #000;">hello@knotinlove.com</span>
+				</p>
+				</center>
+  			</div>
+  		</div>
+	</div>
+	
+	<!-- Loading Screen -->
+	<div class="loader"></div>
+	
+	<!-- Hero Image -->
+	<div id="back2"></div>
+	
+	<!-- Header -->
+	<header id="header" style="z-index: 140;">
+		<div class="container">
+			<div class="logo"><a href="#"><img src="images/sidelogo.png" alt="KNOT" style="width: 70px;position: relative;top: -4px;"></a></div>
+				<nav id="nav">
+					<div class="opener-holder">
+						<a href="#" class="nav-opener"><span></span></a>
+					</div>
+					<a href="#" class="btn btn-primary rounded" style="color:#fff !important;">Log In</a>
+					<div class="nav-drop">
+						<ul>
+							<li><a class="fa fa-facebook header-social " href="#"></a></li>
+							<li><a class="fa fa-instagram header-social" href="#"></a></li>
+							<li><a class="fa fa-twitter header-social " href="#" style="margin-right: 5px;"></a></li>
+							<li><a href="javascript:void(0);" id="dialog-trigger">About Us</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+	</header>
+	
+	<!-- Home Content -->
+	<section class="visual" id="ab">
+		<div class="container">
+			<div class="text-block">
+				<div class="heading-holder animatedParent">
+					<h1><img src="images/knot.png" class="logobig animated fadeInUpShort delay-250"></h1>
+					<p class="tagline animated fadeInUpShort delay-1000">Say hello to India's new-age matchmakers</p>
+					<a href="#" class="btn btn-primary rounded animated fadeInUpShort delay-1250" id="mainb">Join Now For Free</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- Scroller -->
+	<div class="scroll-down animatedParent">
+		<a href="#start" style="color: #fff;"><i class="fa fa-angle-down animated fadeInDownShort delay-1500"></i></a>
+	</div>
+	
+	<!-- Pseudo Scroll -->
+	<div id="start"></div>
+	
+	<!-- Main Wrapper -->
+	<div id="wrapper">
+		<section class="main" style="padding-bottom: 0px;">
+			<div class="container">
+				<div class="row">
+					<div class="text-box col-md-offset-1 col-md-10 animatedParent" style="margin-top: 50px;">
+						<h2 class="animated fadeInUpShort" style="font-size: 1.7em;">The Matchmaking Social Network 
+							<span class="trademark">TM</span>
+							<span class="cursive1">is here.</span>
+						</h2>
+						<p class="animated fadeInUpShort delay-500" style="font-family: 'Varela Round';font-size: 2.5rem;">
+							Meet happy hearts and beautiful souls. 
+							<span class="cursive2">Knot in Love.</span>
+						</p>
+						<div class="subt animated fadeInUpShort delay-750" delay-1500>
+							Scroll down to know more <i class="glyphicon glyphicon-menu-down"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Measure Yourself Better -->
+		<section class="points" style="padding: 30px;">
+			<div style="width: 96%;height: 650px;position: absolute;background-color: #f5f5f5;" class="subp">
+				<div class="col-md-5 animatedParent" id="righthalf" data-appear-top-offset='-200'>
+					<div style="display: table-cell;vertical-align: middle;">
+						<center><img src="images/meas2.png" class="animated fadeInUpShort delay-750 meas9" style="width: 350px;"></center>
+					</div>
+				</div>
+				<div class="col-md-7 v1 animatedParent" data-appear-top-offset='-200'>
+					<div class="vcont" style="padding-left: 50px;">
+						<h2 class="animated fadeInUpShort" style="margin-bottom: 20px;">measure yourself better</h2>
+						<p class="animated fadeInUpShort delay-500" style="width: 88%;">Find people who’re interested in the shape and size of your personality.
+							<br><br>That’s why we don’t ask your height, weight, or complexion.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- For The Unconventional -->
+		<section class="points" style="padding: 30px;">
+			<div style="width: 96%;height: 650px;position: absolute;background-color: #f5f5f5;" class="subp">
+				<div class="col-md-7 v1 animatedParent" data-appear-top-offset='-200'>
+				<div class="vcont" id="unc">
+					<h2 class="animated fadeInUpShort" style="margin-bottom: 20px;">For The Unconventional</h2>
+					<p class="animated fadeInUpShort delay-500" style="width: 93%;">For those who believe grey matters the most. <br><br>Finally Indian matchmaking gets it’s much needed makeover.</p>
+				</div>
+			</div>
+				<div class="col-md-5 animatedParent" id="righthalf" data-appear-top-offset='-200'>
+				<div style="display: table-cell;vertical-align: middle;">
+					<center><img src="images/unco2.png" style="width: 350px;" class="animated fadeInUpShort delay-750 meas9"></center>
+				</div>
+			</div>
+			</div>
+		</section>
+		
+		<!-- Everyone's Verified -->
+		<section class="points" style="padding: 30px;margin-bottom: 80px;height: 600px;">
+			<div style="width: 96%;height: 600px;position: absolute;background-color: #f5f5f5;" class="subp">
+				<div class="col-md-5 animatedParent" id="righthalf" data-appear-top-offset='-200'>
+					<div style="display: table-cell;vertical-align: middle;">
+					<center><img src="images/ver3.png" style="width: 350px;" class="animated fadeInUpShort delay-750 meas9"></center>
+				</div>
+				</div>
+				<div class="col-md-7 v1 animatedParent" data-appear-top-offset='-200'>
+					<div class="vcont">
+						<h2 class="animated fadeInUpShort" style="margin-bottom: 20px;">everyone’s verified</h2>
+						<p class="animated fadeInUpShort delay-500" style="width: 72%;">We double up as detectives to ensure everyone here is worth your time.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Social Links Strip -->
+		<div class="block-holder" style="margin-bottom: 40px;">
+			<center><h3 style="margin-bottom: 25px;">Connect With Us</h3></center>
+			<div class="block-frame">
+				<ul class="cta-list">
+					<li><a href="#" class="btn btn-blue"><i class="fa fa-facebook"></i> Facebook</a></li>
+					<li><a href="#" class="btn btn-default"><i class="fa fa-instagram"></i> Instagram</a></li>
+					<li><a href="#" class="btn btn-info"><i class="fa fa-twitter"></i> Twitter</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<!-- Subscribe to Newsletter -->
+		<section class="area" style="background: #f5f5f5;">
+			<div class="container">
+				<div class="subscribe">
+					<h3>Subscribe to Our Newsletter</h3>
+					<form class="form-inline">
+						<button type="submit" class="btn btn-primary rounded">Subscribe</button>
+						<div class="form-group">
+							<input type="email" class="form-control rounded" id="exampleInputEmail2" placeholder="Email...">
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="container">
+				<div class="footer-holder">
+					<div class="row">
+						<div class="col-md-3">
+							<div class="logo">
+								<a href="#"><img src="images/knot.png" alt="KNOT" style="width: 300px;position: relative;left: -25px;"></a>
+							</div>
+							<p style="font-family: 'Montserrat';text-transform: uppercase;font-size: 11px;">
+								The Matchmaking Social Network
+								<span style="font-size: 9px; position: relative; top:-8px;">TM</span>
+							</p>
+						</div>
+						<div class="col-md-6" style="position: relative;top: 38px;" id="footlinkbar">
+							<a href="#" class="foot-link" id="about-trigger">About Us</a>
+							<a href="#" class="foot-link" id="work-trigger">Work With Us</a>
+							<a href="#" class="foot-link" id="contact-trigger">Contact Us</a>
+							<a href="privacy.html" class="foot-link" target="_blank">Privacy Policy</a>
+							<a href="terms.html" class="foot-link" target="_blank">Terms of Use</a>
+						</div>
+						<div class="col-md-3" style="position: relative;top: 12px;">
+							<img src="images/micro.jpg" style="height: 75px;">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div style="width: 100%;height: 40px;background: #f5f5f5;">
+				<span style="position: relative;top: 10px;text-transform: uppercase;float: right;margin-right: 30px;">&copy; Knot In Love 2015</span>
+			</div>
+		</footer>
+	</div>
+	
+	<script src="js/bootstrap.js"></script>
+	<script src="js/jquery.main.js"></script>
+	<script src="js/css3-animate-it.js"></script>
+	<script>
+		
+	// Change Header Style On Scroll	
+	$(window).scroll(function () {
+		if ( $(this).scrollTop() > 200 && !$('header').hasClass('open') ) {
+			$('header').addClass('open');
+   		} else if ( $(this).scrollTop() <= 200 ) {
+    		$('header').removeClass('open');
+  		}
+	});	
+	
+	
+	// Popup Functions
+	$(document).ready(function() {
+		$('#dialog-box').hide();
+		$('#dialog-work').hide();
+		$('#dialog-contact').hide();
+		$('#dialog-about2').hide();
+		
+		$('#dialog-trigger').click(function() {
+			$('#wrapper, #header, #ab, #back2').addClass('blur');
+			$('#dialog-box').show(); 
+		});
+		
+		$('#about-trigger').click(function() {
+			$('#wrapper, #header, #ab, #back2').addClass('blur');
+			$('#dialog-about2').show(); 
+		});
+		
+		$('#work-trigger').click(function() {
+			$('#wrapper, #header, #ab, #back2').addClass('blur');
+			$('#dialog-work').show(); 
+		});
+		
+		$('#contact-trigger').click(function() {
+			$('#wrapper, #header, #ab, #back2').addClass('blur');
+			$('#dialog-contact').show(); 
+		});
+
+		$('#close').click(function() {
+			$('#dialog-box').hide();
+			$('#wrapper, #header, #ab, #back2').removeClass('blur');
+		});
+		
+		$('#close-about2').click(function() {
+			$('#dialog-about2').hide();
+			$('#wrapper, #header, #ab, #back2').removeClass('blur');
+		});
+		
+		$('#close-work').click(function() {
+			$('#dialog-work').hide();
+			$('#wrapper, #header, #ab, #back2').removeClass('blur');
+		});
+		
+		$('#close-contact').click(function() {
+			$('#dialog-contact').hide();
+			$('#wrapper, #header, #ab, #back2').removeClass('blur');
+		});
+	});
+	
+	// Smooth Scrolls
+	$(document).ready(function(){
+		$('a[href^="#"]').on('click',function (e) {
+	    	e.preventDefault();
+
+			var target = this.hash;
+	    	var $target = $(target);
+
+			$('html, body').stop().animate({
+	    	    'scrollTop': $target.offset().top
+	    	}, 900, 'swing', function () {
+	    	    window.location.hash = target;
+	    	});
+		});
+	});
+</script>
+</body>
+</html>
